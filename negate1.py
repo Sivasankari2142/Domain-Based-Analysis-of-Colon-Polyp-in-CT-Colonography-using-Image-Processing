@@ -1,0 +1,21 @@
+import matplotlib.pyplot as plt
+from PIL import Image
+img=Image.open("C:/Users/DELL/projects/colon/negate0.png")
+plt.imshow(img)
+plt.xlabel('x-axis')
+plt.ylabel('y-axis')
+plt.title('Negation Image')
+plt.savefig('negate0.png')
+img1=Image.open("C:/Users/DELL/projects/colon/edged.png")
+plt.imshow(img1)
+plt.xlabel('x-axis')
+plt.ylabel('y-axis')
+plt.title('Edge Detected Image')
+plt.savefig('edged.png')
+img2=Image.open("C:/Users/DELL/projects/colon/object.png")
+plt.imshow(img2)
+plt.xlabel('x-axis')
+plt.ylabel('y-axis')
+plt.title('Contour Detected Image')
+plt.savefig('object.png')
+

@@ -1,0 +1,4 @@
+edge- 23    both-20
+contours-8
+Total-51
+not predicting-0
